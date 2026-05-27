@@ -1,105 +1,94 @@
-# Financial Analytics & FP&A Dashboard Portfolio
+Automated Investment Analytics & Attribution System
 
-This repository contains a complete financial analytics, pricing strategy, and FP&A reporting project portfolio built for an international education business environment using Python, SQL, PostgreSQL, Excel, and Power BI.
+An end-to-end investment analytics platform designed to automate portfolio performance analysis, risk monitoring, and return attribution using Python, PostgreSQL, SQL, Tableau, and Power BI.
 
-The projects simulate real-world financial reporting, pricing analysis, revenue optimization, KPI monitoring, and management reporting workflows across multiple countries, campuses, and business units.
+Project Overview
 
----
+This project was built to simulate a real-world investment analytics workflow commonly used in asset management and quantitative investment teams.
 
-# Tools & Technologies
+The system collects financial market data, stores and processes it in a structured SQL database, performs portfolio attribution and risk analysis, and presents the results through interactive dashboards.
 
-* Python
-* SQL
-* PostgreSQL
-* Excel
-* Power BI
-* DAX
+The main objective of the project is to answer practical investment questions such as:
 
----
+How did the portfolio perform over time?
+What factors drove gains or losses?
+Which sectors or assets contributed the most to portfolio alpha?
+Where are the primary portfolio risks coming from?
+Key Features
+Portfolio Performance Analysis
+Daily and cumulative portfolio return calculation
+Benchmark comparison (SPY, QQQ, IVV)
+Rolling performance tracking
+Brinson-Fachler Attribution Model
+Allocation Effect Analysis
+Selection Effect Analysis
+Sector-level and asset-level attribution
+Risk Analytics
+Rolling volatility analysis
+Sharpe Ratio
+Alpha & Beta calculation
+Portfolio risk monitoring
+Automated Data Pipeline
+Automated financial data extraction using Python
+SQL-based data cleaning and transformation
+Structured PostgreSQL database architecture
+Interactive Dashboards
+Tableau dashboards for investment storytelling
+Power BI dashboards for portfolio monitoring
+Executive-level visualization design
 
-# Project Structure
+Tech Stack
+| Category           | Tools                               |
+| ------------------ | ----------------------------------- |
+| Programming        | Python                              |
+| Database           | PostgreSQL                          |
+| Query Language     | SQL                                 |
+| Data Processing    | Pandas, NumPy, SQLAlchemy           |
+| Visualization      | Tableau, Power BI                   |
+| Financial Analysis | Brinson Attribution, Risk Analytics |
 
-## Project 1 – Automated Financial Reporting & Executive Dashboard System
+System Architecture
+Financial Market Data
+        ↓
+Python Data Collection (yfinance API)
+        ↓
+PostgreSQL Database
+        ↓
+SQL Data Transformation & Attribution Logic
+        ↓
+Risk & Performance Analytics
+        ↓
+Tableau / Power BI Dashboards
 
-Built an end-to-end financial reporting pipeline using Python, SQL, PostgreSQL, and Power BI.
+Example Analysis Outputs
+Portfolio vs Benchmark Performance
+Sector Contribution Analysis
+Alpha Driver Identification
+Rolling Risk Metrics
+Attribution Waterfall Charts
+Portfolio Risk Dashboard
 
-Key analysis areas:
+Business Value
 
-* Revenue reporting
-* FX conversion
-* Contribution margin analysis
-* Executive KPI dashboards
-* Budget vs actual analysis
+This project demonstrates how investment teams can transform raw financial data into structured, decision-support insights through automation and data analytics.
 
----
+The system was designed to simulate workflows commonly used in:
 
-## Project 2 – Pricing Strategy & Scenario Analysis Model
+Asset Management
+Quantitative Investment Research
+Portfolio Analytics
+Investment Risk Management
+Financial Data Analytics
 
-Developed pricing and scenario simulation models to evaluate how tuition changes, FX fluctuations, promotional discounts, and pricing elasticity impact enrollment, revenue, and profitability.
+Future Improvements
+Real-time market data integration
+Multi-factor risk model
+Cloud deployment
+Automated reporting generation
+Machine learning-based return prediction
 
-Key analysis areas:
-
-* Pricing strategy analysis
-* Scenario modeling
-* Enrollment forecasting
-* Revenue optimization
-* Contribution margin forecasting
-
----
-
-## Project 3 – Dynamic Pricing Strategy & Revenue Optimization Dashboard
-
-Built interactive Power BI dashboards for pricing analytics and pricing sensitivity analysis across multiple international markets.
-
-Key analysis areas:
-
-* Pricing elasticity analysis
-* Revenue optimization
-* Enrollment forecasting
-* Pricing scenario simulation
-* Market-level profitability analysis
-
----
-
-## Project 4 – Executive KPI Reporting & FP&A Monitoring Dashboard
-
-Developed executive KPI dashboards and operational reporting systems for management reporting and business performance monitoring.
-
-Key analysis areas:
-
-* Budget vs actual variance analysis
-* Weekly cash flow forecasting
-* Operational KPI monitoring
-* Campus performance analysis
-* Executive reporting dashboards
-
----
-
-# Dashboard Features
-
-* Interactive Power BI dashboards
-* Dynamic scenario analysis
-* DAX-based KPI calculations
-* Conditional formatting and KPI alerts
-* Cash flow forecasting
-* Revenue variance analysis
-* Pricing sensitivity modeling
-
----
-
-# Business Objectives
-
-The overall objective of this portfolio was to simulate how a financial analyst or FP&A team would support management decision-making through:
-
-* Financial reporting automation
-* Pricing strategy analysis
-* Revenue optimization
-* KPI monitoring
-* Forecasting analysis
-* Executive dashboard reporting
-
----
-
-# Author
+Author
 
 Yongqiang Zhang
+Master of Finance | McMaster University
+Investment Analytics | SQL | Python | Tableau | Power BI
